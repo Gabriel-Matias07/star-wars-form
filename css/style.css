@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(/img/star.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+form{
+    border: solid 1px #2b88f3;
+    box-shadow: 5px 5px 5px 5px #668DA1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin-left: 170px;
+    margin-top: 70px;
+    border-radius: 20px;    
+}
+form h1{
+    text-shadow: 1px 1px 1px #EED650;
+    font-weight: bold;
+    color: #EED650;
+    margin-bottom: 30px;
+}
+button{
+    font-weight: bold;
+    width: 440px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: #2F4C60;
+    color: #EED650;
+    border: none;
+    box-shadow: 4px 4px 4px 4px #668DA1;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #183f59;
+    transition: 0.3s;
+}
+nav{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    font-weight: bold;
+}
+nav a{
+    color: #2F4C60;
+}
+nav a:hover{
+    color: rgb(237, 18, 18);
+    transition: 0.3s;
+}
+nav p{
+    margin-left: 5px;
+}
+.inputs{
+    width: 80%;
+    height: 12px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px #668DA1;
+    padding: 20px;
+}
